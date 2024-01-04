@@ -44,9 +44,6 @@ The neural network architecture consists of a single dense layer with ReLU activ
 ## Training
 The model is trained using the training set, and the training process involves minimizing the binary crossentropy loss using the Adam optimizer.
 
-**model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-model.fit(X_train, labels_train, epochs=5, batch_size=32, validation_split=0.2)**_
-
 ## Evaluation
 The model is evaluated on the test set, and accuracy along with a classification report and confusion matrix.
 
